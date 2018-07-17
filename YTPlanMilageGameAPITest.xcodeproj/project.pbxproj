@@ -8,20 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		66D86B1C20FD17E000DEC367 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D86B1B20FD17E000DEC367 /* AppDelegate.swift */; };
-		66D86B1E20FD17E000DEC367 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D86B1D20FD17E000DEC367 /* ViewController.swift */; };
 		66D86B2120FD17E000DEC367 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66D86B1F20FD17E000DEC367 /* Main.storyboard */; };
 		66D86B2320FD17E100DEC367 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66D86B2220FD17E100DEC367 /* Assets.xcassets */; };
 		66D86B2620FD17E100DEC367 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66D86B2420FD17E100DEC367 /* LaunchScreen.storyboard */; };
+		66D86B2E20FD1E4400DEC367 /* YTPostRoundDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D86B2D20FD1E4400DEC367 /* YTPostRoundDataViewController.swift */; };
+		66D86B3120FD2AC400DEC367 /* YTGetRoundDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D86B3020FD2AC400DEC367 /* YTGetRoundDataViewController.swift */; };
+		CFF263539F5B8DD7FEB23126 /* Pods_YTPlanMilageGameAPITest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6FB7F29746153ECD7C9B952 /* Pods_YTPlanMilageGameAPITest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		66D86B1820FD17E000DEC367 /* YTPlanMilageGameAPITest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YTPlanMilageGameAPITest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66D86B1B20FD17E000DEC367 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		66D86B1D20FD17E000DEC367 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		66D86B2020FD17E000DEC367 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		66D86B2220FD17E100DEC367 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66D86B2520FD17E100DEC367 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		66D86B2720FD17E100DEC367 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66D86B2D20FD1E4400DEC367 /* YTPostRoundDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YTPostRoundDataViewController.swift; sourceTree = "<group>"; };
+		66D86B3020FD2AC400DEC367 /* YTGetRoundDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YTGetRoundDataViewController.swift; sourceTree = "<group>"; };
+		A62BBEB64B1765A728758CBB /* Pods-YTPlanMilageGameAPITest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YTPlanMilageGameAPITest.release.xcconfig"; path = "Pods/Target Support Files/Pods-YTPlanMilageGameAPITest/Pods-YTPlanMilageGameAPITest.release.xcconfig"; sourceTree = "<group>"; };
+		E6FB7F29746153ECD7C9B952 /* Pods_YTPlanMilageGameAPITest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YTPlanMilageGameAPITest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F44DDD67E6B24ACC867C4047 /* Pods-YTPlanMilageGameAPITest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YTPlanMilageGameAPITest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YTPlanMilageGameAPITest/Pods-YTPlanMilageGameAPITest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFF263539F5B8DD7FEB23126 /* Pods_YTPlanMilageGameAPITest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +47,8 @@
 			children = (
 				66D86B1A20FD17E000DEC367 /* YTPlanMilageGameAPITest */,
 				66D86B1920FD17E000DEC367 /* Products */,
+				A78846CC978FCDE0D3F10E27 /* Pods */,
+				82D24F57F33414E81775461F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +64,39 @@
 			isa = PBXGroup;
 			children = (
 				66D86B1B20FD17E000DEC367 /* AppDelegate.swift */,
-				66D86B1D20FD17E000DEC367 /* ViewController.swift */,
 				66D86B1F20FD17E000DEC367 /* Main.storyboard */,
 				66D86B2220FD17E100DEC367 /* Assets.xcassets */,
 				66D86B2420FD17E100DEC367 /* LaunchScreen.storyboard */,
 				66D86B2720FD17E100DEC367 /* Info.plist */,
+				66D86B2F20FD246500DEC367 /* viewControllers */,
 			);
 			path = YTPlanMilageGameAPITest;
+			sourceTree = "<group>";
+		};
+		66D86B2F20FD246500DEC367 /* viewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				66D86B2D20FD1E4400DEC367 /* YTPostRoundDataViewController.swift */,
+				66D86B3020FD2AC400DEC367 /* YTGetRoundDataViewController.swift */,
+			);
+			path = viewControllers;
+			sourceTree = "<group>";
+		};
+		82D24F57F33414E81775461F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6FB7F29746153ECD7C9B952 /* Pods_YTPlanMilageGameAPITest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A78846CC978FCDE0D3F10E27 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F44DDD67E6B24ACC867C4047 /* Pods-YTPlanMilageGameAPITest.debug.xcconfig */,
+				A62BBEB64B1765A728758CBB /* Pods-YTPlanMilageGameAPITest.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +106,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 66D86B2A20FD17E100DEC367 /* Build configuration list for PBXNativeTarget "YTPlanMilageGameAPITest" */;
 			buildPhases = (
+				3C4BA9A40EBC91A0B6541390 /* [CP] Check Pods Manifest.lock */,
 				66D86B1420FD17E000DEC367 /* Sources */,
 				66D86B1520FD17E000DEC367 /* Frameworks */,
 				66D86B1620FD17E000DEC367 /* Resources */,
+				39EA3E499E7B3B8B8C37D2B9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +167,53 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		39EA3E499E7B3B8B8C37D2B9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-YTPlanMilageGameAPITest/Pods-YTPlanMilageGameAPITest-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftHTTP/SwiftHTTP.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftHTTP.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YTPlanMilageGameAPITest/Pods-YTPlanMilageGameAPITest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C4BA9A40EBC91A0B6541390 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YTPlanMilageGameAPITest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		66D86B1420FD17E000DEC367 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66D86B1E20FD17E000DEC367 /* ViewController.swift in Sources */,
 				66D86B1C20FD17E000DEC367 /* AppDelegate.swift in Sources */,
+				66D86B3120FD2AC400DEC367 /* YTGetRoundDataViewController.swift in Sources */,
+				66D86B2E20FD1E4400DEC367 /* YTPostRoundDataViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +355,7 @@
 		};
 		66D86B2B20FD17E100DEC367 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F44DDD67E6B24ACC867C4047 /* Pods-YTPlanMilageGameAPITest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -296,6 +374,7 @@
 		};
 		66D86B2C20FD17E100DEC367 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A62BBEB64B1765A728758CBB /* Pods-YTPlanMilageGameAPITest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
